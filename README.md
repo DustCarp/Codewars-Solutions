@@ -1,6 +1,6 @@
 # Codewars-Solutions
  Solutions to JavaScript Codewars Challenges
-# My Awesome Project
+# Codewars Solutions
 Solutions (Kata) for coding related problems on codewars.com.
 
 **Link to project:** https://www.codewars.com/users/DustCarp/completed_solutions
