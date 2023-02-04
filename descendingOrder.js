@@ -1,7 +1,9 @@
-//Function that takes in a number and reorganizes the numbers from highest to least to return the largest number possible given the original digits. 
+//Function for taking in a number and returning that number with its digits rearranged in descending order. ie: creating the biggest number possible with the number given.  12345 would return 54321
 
 function descendingOrder(n){
-  return parseInt(n.toString().split('').sort(function(a, b){
-    return b - a;
-  }).join(''));
+  let str = `${n}`
+  let split = str.split('')
+  let sorted = split.sort(function(a, b){return b-a})
+  let joined = sorted.join('')
+  return +joined
 }
