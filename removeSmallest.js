@@ -8,7 +8,7 @@
 
 // Don't change the order of the elements that are left.
 
-function removeSmallest(numbers) {
+function(numbers) {
   let num =[]
   for(let i=0; i<numbers.length;i++){
     num.push(numbers[i])
