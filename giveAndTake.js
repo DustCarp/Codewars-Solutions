@@ -47,3 +47,4 @@ function giveAndTake(people, friendships) {
   }
   return res;
 }
+d
