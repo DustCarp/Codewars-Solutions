@@ -2,6 +2,7 @@
 
 // The binary number returned should be a string.
 
+
 function addBinary(a,b) {
   return (a+b).toString(2)
 }
