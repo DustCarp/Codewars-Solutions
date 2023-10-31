@@ -8,6 +8,7 @@
 
 // if bmi > 30 return "Obese"
 
+
 function bmi(weight, height) {
   let bmi = weight/(height*height);
   if(bmi<= 18.5){
