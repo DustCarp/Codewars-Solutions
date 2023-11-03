@@ -66,6 +66,7 @@ class Interpreter {
     this.stack = this.stacks[0];
   }
   
+  
   read(input) {
     const cmds = input.match(/\d+|[-+<>*^#.,\[\]]/g), out = [];
     var i = 0, m = -1;
