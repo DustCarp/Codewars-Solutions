@@ -1,14 +1,14 @@
-The emperor of an archipelago nation has asked you to design a network of bridges to connect all the islands of his country together. But he wants to make the bridges out of gold. To see if he can afford it, he needs you to find the shortest total bridge length that can connect all the islands.
+// The emperor of an archipelago nation has asked you to design a network of bridges to connect all the islands of his country together. But he wants to make the bridges out of gold. To see if he can afford it, he needs you to find the shortest total bridge length that can connect all the islands.
 
-Each island's bridges will begin at the same point (the centre of the island), so that all the bridges connect to each other.
+// Each island's bridges will begin at the same point (the centre of the island), so that all the bridges connect to each other.
 
-As your input, you will be provided with the Cartesian coordinates of the centre of each island as a array of [x, y] arrays – for example, an island at [1, 1] is 1 metre north of an island at [1, 0].
+// As your input, you will be provided with the Cartesian coordinates of the centre of each island as a array of [x, y] arrays – for example, an island at [1, 1] is 1 metre north of an island at [1, 0].
 
-Your function should return the minimum total bridge length, in metres, that can connect all the islands.
+// Your function should return the minimum total bridge length, in metres, that can connect all the islands.
 
-Be warned – this country has a lot of islands, so your algorithm must be fast enough to calculate the bridge lengths for 15,000 islands without timing out.
+// Be warned – this country has a lot of islands, so your algorithm must be fast enough to calculate the bridge lengths for 15,000 islands without timing out.
 
-The values of x and y may be any real numbers from -10,000 to 10,000.
+// The values of x and y may be any real numbers from -10,000 to 10,000.
 
 
 function bridge(islands) {
